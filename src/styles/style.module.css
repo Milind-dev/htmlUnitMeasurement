@@ -35,4 +35,5 @@ html {
 relative => em,rem,vh,vw,
 desktop only
 2em => 2 * 20 => 60px fontsize of current element fontsize  = 20 then  40 * 40 
+vh is viewport and vw viewport width reposive
 */
