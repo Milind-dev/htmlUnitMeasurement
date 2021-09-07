@@ -1,0 +1,37 @@
+html {
+  font-size: 15px;
+}
+.unitMarginCm {
+  color: tomato;
+  font-size: 1.5cm;
+  border: 1px solid red;
+  width: 4cm;
+  height: 4cm;
+}
+.unitMarginMilimeter {
+  color: chartreuse;
+  background-color: navy;
+  width: 10mm;
+  height: 11mm;
+}
+
+.unitMarginInches {
+  color: mediumaquamarine;
+  background-color: yellow;
+  width: 3in;
+  height: 2in;
+}
+
+.unitMarginRem {
+  color: mediumaquamarine;
+  background-color: yellow;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+/* absolute are not reponsive =>  pixels , inches , centimeter ,milimeter , mobile only
+relative => em,rem,vh,vw,
+desktop only
+2em => 2 * 20 => 60px fontsize of current element fontsize  = 20 then  40 * 40 
+*/
